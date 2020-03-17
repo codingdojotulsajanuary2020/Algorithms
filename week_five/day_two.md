@@ -7,6 +7,9 @@
         def __init__(self):
             self.data = []
 
+        def size(self):
+            # returns the # of values in the stack
+
         def isEmpty(self):
             # return a boolean whether or not the stack is empty
 
