@@ -22,3 +22,20 @@
         def dequeue(self):
             # removes and returns the first value of the Queue
         
+    class SLNode():
+        def __init__(self, value):
+            self.val=value
+            self.next=None
+    
+    class SList():
+        def __init__(self):
+            self.head=None
+            self.tail=None
+        def addFront(self, val):
+            pass
+        def removeFront(self):
+            pass
+        def addBack(self,val)
+            pass
+        def removeBack(self):
+            pass
