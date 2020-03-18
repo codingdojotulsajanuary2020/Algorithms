@@ -3,7 +3,7 @@
 ### Queue - FIFO 
 
 
-    class Stack():
+    class Queue():
         def __init__(self):
             self.data = SList()
 
