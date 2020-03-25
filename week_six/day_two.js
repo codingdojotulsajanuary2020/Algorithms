@@ -16,4 +16,12 @@ function printToFive(num) {
     console.log('done with the recursion calls num is:', num);
 }
 
-printToFive(0);
+// printToFive(0);
+
+
+function rSig(num){
+    if(num == 1) return 1;
+    return num + rSig(num-1);
+}
+
+rSig(4);
